@@ -1548,6 +1548,7 @@
 // Вывод: [2,1,0,3]
 
 // ПИСАТЬ КОД ЗДЕСЬ
+
 // function chek(nums) {
 //   let res = nums.map((el) => nums.filter((elem) => el > elem).length);
 //   console.log(res);
@@ -1789,8 +1790,7 @@
 // }
 // console.log(res);
 
-// let arr = [1, 1, 2, 4, 5, 5, 6, 7];
-// function chek(arrey) {
+// function chek(arr) {
 //   return arr.reduce((acc, el) => {
 //     if (!acc.includes(el)) {
 //       acc.push(el);
@@ -1798,7 +1798,7 @@
 //     return acc;
 //   }, []);
 // }
-// console.log(chek(arr));
+// console.log(chek([1, 1, 2, 4, 5, 5, 6, 7, 7]));
 
 // Во всех задачах используйте только методы map, reduce.
 // 1. Вам дан массив с числами [5,15,315,2,13,20,9]. Найдите сумму этих чисел.
@@ -2433,3 +2433,61 @@
 // let p = /^(?:[0-1]\d|2[0-3]):[0-5]\d$/;
 // let res = p.test(str);
 // console.log(res);
+
+// 12. Вам дан массив с элементами [1, 2, 3, 4, 5, 6, 7, 8, 9].
+//  С помощью цикла for создайте строку '-1-2-3-4-5-6-7-8-9-'.
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let str = "-";
+// for (let i of arr) {
+//   str += i += "-";
+// }
+// console.log(str);
+
+// если на консоль написаь a то выйдет 0
+// если на консоль написать b то выйдет 1
+// используй 2 этих переменных
+// let a = 1;
+// let b =0;
+
+// let a = 0;
+// let b = 1;
+// [a, b] = [b, a];
+// console.log(b);
+
+//!Examen>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// let obj = [
+//   { mark: "Wolksvagen", year: 2005, price: 8000, sale: 0 },
+//   { mark: "Audi", year: 1996, price: 2500, sale: 0 },
+//   { mark: "Mercedes", year: 2001, price: 5000, sale: 0 },
+//   { mark: "BMW", year: 2015, price: 18000, sale: 0 },
+//   { mark: "Porsche", year: 2020, price: 120000, sale: 0 },
+// ];
+
+// for (let i of obj) {
+//   if (i.year <= 2008) {
+//     console.log((i.sale += 20 && i.price * 0.2));
+//   }
+//   console.log(i);
+// }
+
+// for (let i = 50; i <= 800; i *= 2) {
+//   console.log(i);
+// }
+
+// for (let i = 800; i >= 50; i /= 2) {
+//   console.log(i);
+// }
+
+//#
+// ##
+// ###
+// ####
+// #####
+// ######
+// #####
+// ####
+// ###
+// ##
+//#
